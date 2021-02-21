@@ -20,4 +20,4 @@ YFM(YAML Front Matter)은 3개의 하이픈으로 시작과 끝을 표시한다 
 또한 YAML을 이용 글의 제목 날짜 카테고리 테그 레이아웃을 정의할 수 있다!
 
 이 글의 제목은 {{page.title}}이고
-마지막 수정일은 {{page.last_modified_at}}이다.
+마지막 수정일은 {{page.last_modified_at}}이다. 
