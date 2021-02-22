@@ -2,6 +2,8 @@
 title : "github.io blog 시작"
 excerpt: "Github Blog 서비스인 github.io 블로그 시작!"
 
+comments: true
+
 categories :
     -Blog
 tags:
