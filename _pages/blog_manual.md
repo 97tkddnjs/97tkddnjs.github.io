@@ -5,7 +5,4 @@ layout: single
 ---
 
 이 블로그는 개인적으로 공부하여 정리한 내용들을 올리고자 만들 깃블로그입니다.
-깃 블로그를 만드는 데에는 <https://devinlife.com/howto/> 이 블로그의 같이 따라히기 시리즈와
-<https://honbabzone.com/jekyll/start-gitHubBlog/> 기록하는 게발자 블로그의 Github 블로그 시작하기라는 곳을
-참조하였습니다.
-
+가급적 매일 기록하는 것을 목표로 하고 있습니다.
