@@ -1,9 +1,9 @@
 # main links
 main:
   - title: "블로그 시작하기"
-    url: https://97tkddnjs.github.io/
+    url: /-blog/first-post/
   - title: "About"
-    url: https://97tkddnjs.github.io/about/
+    url: /about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
