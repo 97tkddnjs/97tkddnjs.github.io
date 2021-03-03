@@ -24,7 +24,7 @@ last_modified_at: 2021-03-02
 
 [windows 텐서플로우 버전확인](https://www.tensorflow.org/install/source_windows#tested_build_configurations)
 
-![tensorflow-gpu](/assets/images/tensorflow-gpu.png)
+![tensorflow-gpu](/assets/images/tensorflow-gpu.PNG)
 
 그 후 pip 명령어를 통해 다운로드를 한다.
 
