@@ -60,7 +60,9 @@ CUDA설치가 끝났다면 이제 CUDNN을 설치해보자!
 ![zip](/assets/images/zip.PNG)
 
 <p>이제 이 파일들을 전부 다 아래 보이는 경로로 전부 옮긴다.</p>
-![d_path](/assets/images/d_path.PNG)
+
+![d_path]/assets/images/)
+
 
 보통 cuda를 설치하게 되면 <strong>위와 같은 경로</strong>로 폴더가 생성된다.
 <strong>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v버전</strong>
