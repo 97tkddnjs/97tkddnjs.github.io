@@ -28,7 +28,7 @@ last_modified_at: 2021-03-02
 
 그 후 pip 명령어를 통해 다운로드를 한다.
 
-![pip](/assets/images/pip install tensorflow.png)
+![pip](/assets/images/pip install tensorflow.PNG)
 
 ## 2. 텐서플로우 버전과 맞는 CUDA와 cuDNN을 설치한다.
 
@@ -40,12 +40,12 @@ last_modified_at: 2021-03-02
 
 필자의 경우 tensorflow-gpu 2.3.0 버전을 설치하였으므로 밑에 보이는 <strong>CUDA Toolkit 10.1 update2</strong> 버전으로 설치를 하였다.
 
-![CUDA](/assets/images/cuda.png)
+![CUDA](/assets/images/cuda.PNG)
 
 <strong>cuda_10.1.243_426.00_win10.exe</strong> 파일을 실행하여 설치를 진행한다.
 
 설치가 끝나면 밑에 보이는 사진과 같은 NVIDIA폴더들이 생길 것이다.
-![toolkit](/assets/images/toolkit.png)
+![toolkit](/assets/images/toolkit.PNG)
 
 CUDA설치가 끝났다면 이제 CUDNN을 설치해보자!
 
@@ -53,19 +53,19 @@ CUDA설치가 끝났다면 이제 CUDNN을 설치해보자!
 
 필자의 경우 tensorflow-gpu 2.3.0 버전을 설치하였으므로 밑에 보이는 <strong>Download cuDNN v7.6.5 (November 5th, 2019), for CUDA 10.1</strong> (Windows10)버전으로 설치를 하였다.
 <br>(밑에 사진 참조)
-![cudnn](/assets/images/cudnn.png)
+![cudnn](/assets/images/cudnn.PNG)
 
 <p>다운받은 cudnn파일을 압축해제를 한다. 아래 사진과 같은 결과를 확인할 수 있을 것이다.</p>
 
-![zip](/assets/images/zip.png)
+![zip](/assets/images/zip.PNG)
 
 <p>이제 이 파일들을 전부 다 아래 보이는 경로로 전부 옮긴다.</p>
-![d_path](/assets/images/d_path.png)
+![d_path](/assets/images/d_path.PNG)
 
 보통 cuda를 설치하게 되면 <strong>위와 같은 경로</strong>로 폴더가 생성된다.
 <strong>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v버전</strong>
 
-![final](/assets/images/final.png)
+![final](/assets/images/final.PNG)
 
 ## 3. Tensorflow code 실행!
 cmd 창을 열어 밑에 보이는 코드를 하나씩 입력해주면 된다!
@@ -87,5 +87,5 @@ print(device_lib.list_local_devices()) #device_type에 gpu있으면 성공
 
 <p>결과값 cmd 화면</p>
 그림에서 오른쪽 마우스키를 눌러 <strong>새 탭에서 이미지 열어보기</strong>를 하면 자세히 보인다.
-![cmd1](/assets/images/cmd1.png)
-![cmd2](/assets/images/cmd2.png)
+![cmd1](/assets/images/cmd1.PNG)
+![cmd2](/assets/images/cmd2.PNG)
