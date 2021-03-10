@@ -34,7 +34,7 @@ Series는 <strong>순차적으로 나열된 1차원 배열의 형태</strong>를
 이러한 점에서 python의 dictionary와 유사한 점을 보인다.<br>
 또한 Series는 본질적으로 DataFrame의 단일 열이라고 볼수 있다.
 
-![Series](/assets/images/pandas/Series.PNG)
+![Series](/assets/images/pandas/Series.png)
 
 ### Series 생성하기
 
@@ -89,7 +89,7 @@ dtype: int64
 데이터 값을 읽기 위해서는 인덱스에 대해 알아야 한다.<br>
 인덱스는 <strong>위치인덱스</strong>와 <strong>인덱스명</strong> 2가지로 분리된다.<br>
 
-![SeriesIdx](/assets/images/pandas/Series_idx.PNG)
+![SeriesIdx](/assets/images/pandas/Series_idx.png)
 
 그래서 접근을 할때는 인덱스명이 존재하지 않을 때는 위치 인덱스로
 인덱스명이 존재할 때는 위치인덱스 혹은 인덱스명으로 접근한다!
