@@ -287,3 +287,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+      read_time: true
+      comments:  true #댓글 사용할 것임!
+      share: true
+      toc : true
+      related: true

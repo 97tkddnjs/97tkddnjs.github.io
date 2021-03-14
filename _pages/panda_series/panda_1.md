@@ -2,9 +2,9 @@
 title: "pandas의 Object 데이터 생성 및 접근"
 permalink: /categories/Pandas/
 
-toc: true
-toc_sticky: true
-toc_label: 목차
+toc : true
+toc_sticky : true
+toc_label : 목차
 
 
 layout: category
