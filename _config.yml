@@ -290,5 +290,5 @@ defaults:
       read_time: true
       comments:  true #댓글 사용할 것임!
       share: true
-      toc : true
+      toc: true
       related: true

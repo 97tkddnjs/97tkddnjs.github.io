@@ -2,15 +2,14 @@
 title: "pandas의 Object 데이터 생성 및 접근"
 permalink: /categories/Pandas/
 
-toc : true
-toc_sticky : true
-toc_label : 목차
+toc: true
+toc_sticky: true
+toc_label: 목차
 
 
 layout: category
 author_profile: true
 taxonomy: Pandas
-
 
 ---
 ## 판다스 object 데이터 생성하기 
@@ -131,3 +130,82 @@ dtype: int64
 ```
 
 ## DataFrame
+
+데이터 프레임은 쉽게 말해 <strong>행렬</strong>이라고 생각하면 된다!<br>
+
+또한 데이터 프레임은 각각의 시리즈 객체들이 열벡터를 이룬다고 생각하면 된다!
+
+
+### DataFrame 생성하기
+
+튜플과 리스트로 DataFrame 생성하기
+
+```py
+dict_df = {'알파벳' : ['a','b','c','d','e'],
+           '과일' : ['apple','banana','pineapple', 'melon','mango'],
+           '한글' : ['ㄱ','ㄴ','ㄷ','ㄹ','ㅁ']
+}
+
+df = pd.DataFrame(dict_df)
+
+''' 결과값~
+  알파벳 과일 한글
+0   a      apple  ㄱ
+1   b     banana  ㄴ
+2   c  pineapple  ㄷ
+3   d      melon  ㄹ
+4   e      mango  ㅁ
+'''
+```
+
+
+
+리스트(행렬)로 DataFrame 생성하기
+```py
+list_df =[
+          [ 17 ,'컴퓨터 공학',3],
+          [20 ,'컴퓨터 공학',2],
+          [21 ,'컴퓨터 과학',1]
+]
+
+df = pd.DataFrame(list_df,columns = ['학번', '학과', '학년'],
+                index = ['학생 A','학생 B','학생 C'] )
+
+
+''' results
+
+       학번      학과  학년
+학생 A  17  컴퓨터 공학   3
+학생 B  20  컴퓨터 공학   2
+학생 C  21  컴퓨터 과학   1
+
+'''
+
+#index 와 columns에 접근하기!
+
+print( df.index , df.columns)
+
+''' 결과값!
+Index(['학생 A', '학생 B', '학생 C'], dtype='object') 
+Index(['학번', '학과', '학년'], dtype='object')
+'''
+#접근하여 바꿀 수도 있다!!!
+
+df.index=['준범','지수', '동영']
+
+print(df)
+''' 
+    학번      학과  학년
+준범  17  컴퓨터 공학   3
+지수  20  컴퓨터 공학   2
+동영  21  컴퓨터 과학   1
+'''
+
+```
+### DataFrame에 접근하기!
+
+
+행 데이터에 접근하기!
+
+
+열 데이터에 접근하기
