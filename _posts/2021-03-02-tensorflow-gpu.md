@@ -1,6 +1,6 @@
 ---
 title:  "tensorflow gpu 버전 설치하기"
-excerpt: "Pandas의 사용법을 알아보도록 하겠다!"
+excerpt: "tensorflow gpu 버전 설치를 알아보도록 하겠다!"
 
 toc: true
 toc_sticky: true
