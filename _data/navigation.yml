@@ -8,6 +8,7 @@ main:
     url: /categories/Study/
   - title: "공모전"
     url: /categories/Contest/
+  
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
